@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@mipmap/bebel"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@mipmap/bebel"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PLEASE REGISTER BEFORE USING THIS APP"
+        android:textSize="17dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:id="@+id/txtemail"
+        android:hint="Email"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textColorHint="#000000"
+        android:backgroundTint="#797979"
+        android:drawableStart="@drawable/isbel"
+        android:drawableLeft="@drawable/isbel"
+        android:drawablePadding="12dp"/>
+
+    <EditText
+        android:id="@+id/txtusername"
+        android:hint="Username"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#000000"
+        android:backgroundTint="#797979"
+        android:drawableStart="@drawable/isbel"
+        android:drawableLeft="@drawable/isbel"
+        android:drawablePadding="12dp"/>
+
+    <EditText
+        android:id="@+id/txtpassword"
+        android:hint="Password"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#000000"
+        android:backgroundTint="#797979"
+        android:drawableStart="@drawable/isbel"
+        android:drawableLeft="@drawable/isbel"
+        android:drawablePadding="12dp"/>
+
+    <EditText
+        android:id="@+id/txtconfirmpassword"
+        android:hint="Confirm Password"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#000000"
+        android:drawableStart="@drawable/isbel"
+        android:drawableLeft="@drawable/isbel"
+        android:drawablePadding="12dp"
+        android:backgroundTint="#797979"/>
+
+    <Button
+        android:id="@+id/txtregister"
+        android:background="@color/colorPrimary"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="REGISTER"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER = AGREE"
+        android:textSize="17dp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginTop="40dp"/>
+
+</LinearLayout>
